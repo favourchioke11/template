@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    text-align: left;
+}
+
+body header h1{
+    color: #04AA6D;
+    margin: 5px;
+}
+body header{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 15px;
+}
+body header p{
+    font-size: 25px;
+}
+
+.box-section .aside1 ul{
+    list-style: none;
+}
+.box-section section ul{
+    list-style: none;
+}
+
+.aside1 ul li a{
+    background: #000000de;
+    color: #f1f1f1;
+    border-bottom: none;
+}
+
+/* .aside1 ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: baseline;
+    align-items: center;
+}
+
+.aside1 ul .box1{
+    width: 25%;
+}
+.aside1 ul .box2{
+    width: 25%;
+}
+.aside1 ul .box3{
+    width: 25%;
+}
+.aside1 ul .box4{
+    width: 25%;
+}
+.aside1 ul .nobox{
+    width: 25%;
+} */
+
+.box-section h2{
+    color: #04AA6D;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.box-section section ul li{
+    display: inline;
+}
+.box-section section ul li a{
+    color: black;
+}
+
+.aside2 h3{
+    color: #04AA6D;
+    margin: 10px 0;
+}
+.box-section .aside2{
+    background: #e0e0e0;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+section article p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body .panther2{
+    font-size: 50rem;
+    text-align: center;
+}
+body .panther1{
+    font-size: 30rem;
+    text-align: center;
+    color: #7a5b0bba;
+    background: black;
+    margin: 50px 200px;
+}

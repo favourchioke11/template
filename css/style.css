@@ -1,0 +1,129 @@
+p{
+    color: purple;
+}
+
+
+ul{
+    background: orange;
+}
+
+p{
+    background-color: orange;
+}
+
+.glow{
+    box-shadow: 0 0 5px 5px blueviolet;
+
+}
+
+.big-text{
+    font-size: 22px;
+}
+
+li{
+    background-color: pink;
+}
+
+#bg-orange{
+    background: orange;
+}
+
+body div p{
+    background: blue;
+}
+
+.li{
+    text-color: brown;
+}
+
+body ul li{
+    background-color: aqua;
+}
+
+body div>p{
+    background-color: brown;
+}
+
+li,a,p{
+    color: green;
+}
+
+tr:first-child{
+    background: blue;
+}
+
+tr:last-child{
+    background:skyblue;
+}
+tr:nth-child(odd){
+    background: yellow;
+}
+tr:nth-child(4){
+    background: goldenrod;
+}
+td:nth-child(2){
+    background: rgb(218, 165, 32);
+}
+td:nth-child(4),
+th:nth-child(4){
+    background: #008000;
+}
+
+body{
+    height: 100vh;
+    /* background: radial-gradient(#008000 40%,#e45782 ,#64e378 50%); */
+    /* background: linear-gradient(90deg,#fb04a7 30%, #0b4151 70%); */
+    background: url(../media/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h6+p{
+    color: brown;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 5px #ff69b4;
+    text-decoration: double overline;
+    text-transform: capitalize;
+    background-color: #ffa600b4;
+    /* width: 800px; */
+    /* width: 50vw; */
+    /* height: 50hv; */
+    width: 70%;
+    padding: 50px;
+    margin: 30px;
+    border: 100px double orange;
+    /* border-radius: 20pc; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 50px 30px olivedrab;
+}
+
+.main-box{
+    display: flex;
+    background: yellow;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    /* justify-content: flex-end;
+    justify-content: space-around; */
+    justify-content: space-between;
+    align-items: baseline;
+    align-items: center;
+}
+
+.box{
+    background: rgb(44, 63, 11);
+    width: 30%;
+    height: 300px;
+    /* position: absolute; */
+    /* position: fixed;
+    top: 0; */
+    /* position: sticky;
+    top: 0; */
+    border: 2px solid white;
+}

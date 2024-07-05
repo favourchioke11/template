@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h6,button,a,input,p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    box-shadow: 0px 2px 5px 0px #00000054;                                                                                                    ;
+} 
+nav h1, nav ul li a{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: block;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+nav h1:hover, nav ul li a:hover{
+    background: #8f7f7f4e;
+    border-radius: 2px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background: url(../media/architect1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.home h2{
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+.home h2 span{
+    font-weight: 900;
+    text-transform: uppercase;
+    background: #000000ae;
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+.project h3{
+    margin: 10px 0;
+    padding: 5rem 2rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+h3{
+    font-weight: 400;
+    font-size: 28px;
+    border-bottom: 1px solid #0000001a;
+    padding: 20px 0;
+}
+.project div .box1{
+    background: url(../media/summer1.jpg);
+    width: min-content;
+    width: 290px;
+    background-size: cover;
+    height: 190px;
+}
+.project div .box2{
+    background: url(../media/brick1.jpg);
+    width: min-content;
+    width: 290px;
+    background-size: cover;
+    height: 190px;
+}
+.project div .box3{
+    background: url(../media/renovated1.jpg);
+    width: min-content;
+    width: 290px;
+    background-size: cover;
+    height: 190px;
+}
+.project div .box4{
+    background: url(../media/barn1.jpg);
+    width: min-content;
+    width: 290px;
+    background-size: cover;
+    height: 190px;
+}
+.project div .box5{
+    background: url(../media/summer2.jpg);
+    width: min-content;
+    width: 290px;
+    background-size: cover;
+    height: 190px;
+}
+.project div .box6{
+    background: url(../media/brick2.jpg);
+    width: min-content;
+    width: 290px;
+    background-size: cover;
+    height: 190px;
+}
+.project div .box7{
+    background: url(../media/renovated2.jpg);
+    width: min-content;
+    width: 290px;
+    background-size: cover;
+    height: 190px;
+}
+.project div .box8{
+    background: url(../media/barn2.jpg);
+    width: min-content;
+    width: 290px;
+    background-size: cover;
+    height: 190px;
+}
+.project div{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: 10px 1px;
+    /* align-self: center; */
+    padding-top: 2rem;
+}
+.project div h4{
+    color: #090606;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+}
+body .project{
+    margin: 30px 3px;
+}
+.about h3{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 20px 0;
+}
+.about{
+    padding: 10px 60px;
+}
+.about p{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.about div img{
+    width: min-content;
+    width: 280px;
+    margin-top: 10px;
+}
+.about div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.about div .item1{
+    width: 20%;
+}
+.about div .item2{
+    width: 20%;
+}
+.about div .item3{
+    width: 20%;
+}
+.about div .item4{
+    width: 20%;
+}
+.about div h3{
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.about div h6{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #7e7a7a;
+}
+.about div a{
+    text-transform: capitalize;
+    display: block;
+    background: #e7e7e7;
+    width: 100%;
+    height: 6vh;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin-top: -13px;
+}
+.about div a:hover{
+    background: #999999;
+}
+ body .contact{
+    padding: 25px;
+ } 
+.contact h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 4rem;
+    font-weight: 450;
+    margin-bottom: 15px;
+}
+.contact p{
+    font-size: 18px;
+    margin: 22px 0;
+}
+.contact form input{
+    width: 100%;
+    height: 7vh;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.contact form button{
+    margin: 20px 0;
+    font-size: 18px;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #000000;
+    color: #f1f1f1;
+    margin-bottom: 40px;
+}
+.contact form button:hover{
+    background: #767676;
+    color: #000000;
+}
+body footer p{
+    background: #000000;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    text-transform: capitalize;
+    margin-top: -14px;
+}

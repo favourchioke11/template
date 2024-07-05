@@ -1,0 +1,45 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    font-weight: 400;
+}
+
+body header p{
+    word-spacing: 7px;
+    font-size: 20px;
+}
+.box-section .aside1 ul li a{
+    color: black;
+    font-size: 18px;
+}
+.box-section .aside1 ul li{
+    padding: 0 5px;
+}
+.box-section section ul{
+    list-style: none;
+}
+.box-section section ul li{
+    display: inline;
+}
+.box-section section p{
+    font-size: 20px;
+    margin: 1px 0;
+}
+section ul li{
+    font-size: 18px;
+    margin: 5px 0;
+}
+.box-section .aside2 h3{
+    text-transform: capitalize;
+}
+.box-section .aside2 p{
+    font-size: 17px;
+    text-align: left;
+}
+footer{
+    font-size: 17px;
+}

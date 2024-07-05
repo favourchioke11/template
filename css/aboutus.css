@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body form{
+    background: #170317ec;
+    color: aliceblue;
+    width: 28%;
+    margin: 10px 28rem;
+    height: 70vh;
+    border-radius: 5px;
+}
+body form header h3{
+    color: #eba35b;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 4.5rem;
+    padding: 20px;
+    line-height: 2rem;
+}
+body form div{
+    color: #ffffff;
+    margin: 1.5rem auto;
+    border-radius: 12rem;
+    padding: 20px;
+    background: #259f2567;
+    text-align: center;
+}
+body .sect2{
+    text-align: center;
+    background: #259f2567;
+    height: 11.8vh;
+    padding: 20px;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    margin: -10px;
+    height: 12vh;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+}

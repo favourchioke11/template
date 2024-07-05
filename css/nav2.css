@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav1{
+    background: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+.nav1 ul{
+    list-style: none;
+}
+.nav1 ul li{
+    display: inline-block;
+}
+.nav1 ul li ul{
+    position: absolute;
+    background: #61030395;
+    display: none;
+    border-radius: 5px;
+}
+.nav1 ul li:hover>ul{
+    display: block;
+}
+.nav1 ul li ul li{
+    display: block;
+}
+.nav1 ul li ul li a{
+    display: block;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    display: inline-block;
+    color: #f1f1f1;
+}
+.nav1 ul li a:hover{
+    background: #000000;
+    border-radius: 10px;
+}
+.nav2{
+    background: aqua;
+    width: 300px;
+    margin-top: 5rem;
+    padding: 20px 3px;
+}
+.nav2 ul{
+    list-style: none;
+}
+.nav2 ul li ul{
+    position: absolute;
+    left: 300px;
+    list-style: none;
+    margin-top: -4rem;
+    background: rgb(228, 223, 223);
+    width: 300px;
+    border-radius: 5px;
+    display: none;
+}
+.nav2 ul li:hover>ul{
+    display: inline-block;
+}
+.nav2 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 2rem 0;
+    padding-top: 1rem;
+    font-size: 32px;
+}
+.nav2 ul li a{
+    /* background: #b7e2d0; */
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #7e7e7e;
+    padding: 1rem 0;
+    border-bottom: 1px solid #8cd9b9;
+}
+.nav2 ul li a:hover{
+    border-radius: 7px;
+    background: #7d177d;
+}
+
+.nav3{
+    background: #0e0e0ec2;
+    color: white;
+    margin-top: 10rem;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+    /* width: 90%; */
+    margin-bottom: 10rem;
+    margin: 70px 180px;
+    border-radius: 20px;
+}
+.nav3 ul li{
+    list-style: none;
+}
+.nav3 ul li{
+    display: inline-block;
+}
+.nav3 ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+body .nav3 h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav3 ul li a:hover{
+    border-radius: 10px;
+    background: #7e7e7e;
+}
+.nav4{
+    background: #2b2b2bc2;
+    margin-bottom: 10rem;
+    width: 40%;
+    padding: 5px 0;
+    border-radius: 20px;
+}
+.nav4 ul li ul{
+    position: absolute;
+    list-style: none;
+    left: 40%;
+    background: gray;
+    width: 20%;
+    border-radius: 5px;
+    margin-top: -3.3rem;
+    display: none;
+}
+.nav4 ul li:hover>ul{
+    display: inline-block;
+}
+.nav4 ul li{
+    list-style: none;
+    text-align: center;
+    /* height: 50px; */
+}
+.nav4 h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
+.nav4 ul li a{
+    text-decoration: none;
+    color: #d8e8e8;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    display: block;
+    padding: 1rem 0;
+}
+.nav4 ul li a:hover{
+    background: black;
+    border-radius: 30px;
+}
+.hover-box{
+    background: lavender;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.hover-box h5{
+    background: pink;
+    font-size: 32px;
+    padding: 10px;
+    display: inline-block;
+}
+.hover-box p{
+    background: #7d177d;
+    display: none;
+}
+.hover-box h5:hover+p{
+    display: block;
+}
+.hover-box:hover>p{
+    display: block;
+}
